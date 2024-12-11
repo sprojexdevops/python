@@ -19,7 +19,7 @@
 # d['k'] = 1234
 # print(d)
 
-# Set
+# Set -- does not accept duplicates and does not inherit/have an order
 s = {'a', 'a', 'b', 'c'}
 # print(s)
 # {'b', 'a', 'c'}
