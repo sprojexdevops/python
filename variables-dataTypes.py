@@ -70,8 +70,8 @@ print(a ** b)
 # print(sample_str4.index('H'))
 # print(sample_str4.index('o'))
 
-# special_char = sample_str4[4]
-# special_char2 = sample_str4[-1]
+# special_char = sample_str4[4]     # indexing
+# special_char2 = sample_str4[-1]   # negative indexing
 # print(special_char, special_char2)
 
 # len() --> length of a string
