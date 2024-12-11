@@ -1,5 +1,8 @@
+# d = {'k': 123, [1, 2, 3, 4]: 123}     # here [1,2,3,4] is a key of type list
+# print(d[[1, 2, 3, 4, 5]])    # error -- key can only be an immutable type
+
 # d = {'k': 123, (1, 2, 3, 4): 123, (1, 2, 3, 4, 5): list(str(123))}
-# print(d[(1, 2, 3, 4, 5)])
+# print(d[(1, 2, 3, 4, 5)])     # here key is a tuple and is immutable, so no error
 # print(dir(d))
 
 """
